@@ -1,6 +1,6 @@
 import Web3 from "web3";
 import starNotaryArtifact from "../../build/contracts/StarNotary.json";
-import { lookup } from "dns";
+//import { lookup } from "dns";
 
 const App = {
   web3: null,
