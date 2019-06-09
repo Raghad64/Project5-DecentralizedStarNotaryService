@@ -128,5 +128,5 @@ it('lookUptokenIdToStarInfo test', async() => {
     // 2. Call your method lookUptokenIdToStarInfo
     let starName = await instance.lookUptokenIdToStarInfo(tokenId);
     // 3. Verify if you Star name is the same
-    assert.equal(starName, 'Star with different tokneId');
+    assert.equal(starName, 'Star with different tokenId');
 });
