@@ -42,8 +42,8 @@ const App = {
 
   // Implement Task 4 Modify the front end of the DAPP
   lookUp: async function (){
-    const {lookUpTokenIdToStarInfo} = this.meta.methods;
-    const lookUpId = document.getElementById("lookId").value;
+    const {lookUptokenIdToStarInfo} = this.meta.methods;
+    const lookUpId = document.getElementById("lookid").value;
 
     if(!lookUpId){
       App.setStatus("Token was not provided.")
